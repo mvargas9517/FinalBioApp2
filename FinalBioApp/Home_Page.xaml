@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.Home_Page">
+    <ContentPage.Content>
+        
+    <StackLayout Spacing="58" BackgroundColor="LightGray">
+          
+          
+         <Label Text ="Home" 
+                 FontSize="50"
+                 BackgroundColor="Maroon"
+                 HeightRequest="100"
+                 TextColor="White"
+                 VerticalTextAlignment="Center"
+                 HorizontalTextAlignment="Center"
+                 HorizontalOptions="FillAndExpand">
+                 
+            </Label>
+            
+           <StackLayout Orientation="Horizontal">
+                
+         <Button Text="Biography"
+                 FontSize="30"
+                 BackgroundColor="#2F6B81"
+                 HeightRequest="100"
+                 WidthRequest="200"
+                 HorizontalOptions="EndAndExpand">
+                 </Button>
+             
+               
+          
+               </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                
+            <Button Text="Skills"
+                 FontSize="30"
+                 BackgroundColor="#2F6B81"
+                 HeightRequest="100"
+                 WidthRequest="200"
+                 HorizontalOptions="Start">
+            </Button>
+                
+            </StackLayout>
+            
+            <StackLayout Orientation="Horizontal">
+                
+            <Button Text="Contact"
+                  FontSize="30"
+                  BackgroundColor="#2F6B81"
+                  HeightRequest="100"
+                  WidthRequest="200"
+                  HorizontalOptions="EndAndExpand">
+                 
+            </Button>
+            
+                </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
