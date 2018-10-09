@@ -16,35 +16,50 @@
                  
             </Label>
             
-           <StackLayout Orientation="Horizontal">
-                
+               <StackLayout> 
          <Button Text="Biography"
                  FontSize="30"
+                 Margin="0,-20,0,0"
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
                  WidthRequest="200"
                  HorizontalOptions="EndAndExpand">
-                 </Button>
-             
-               
-          
-               </StackLayout>
-            
+                 </Button> 
+            </StackLayout>
+
             <StackLayout Orientation="Horizontal">
-                
+               <BoxView BackgroundColor="Black"
+                        HorizontalOptions="FillAndExpand"
+                        HeightRequest="13"
+                        Margin="0,-10,0,0">
+                    
+                </BoxView>
+            </StackLayout>
+            
+                <StackLayout>
             <Button Text="Skills"
                  FontSize="30"
+                 Margin="0,0,0,40"
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
                  WidthRequest="200"
                  HorizontalOptions="Start">
             </Button>
                 
+               <StackLayout Orientation="Horizontal">
+               <BoxView BackgroundColor="Black"
+                        HorizontalOptions="FillAndExpand"
+                        Margin="0,0,0,0"
+                        HeightRequest="13">
+                        
+                        </BoxView>
+                </StackLayout>
+                
             </StackLayout>
             
-            <StackLayout Orientation="Horizontal">
-                
+                <StackLayout>
             <Button Text="Contact"
+                  Margin="0,0,0,60"
                   FontSize="30"
                   BackgroundColor="#2F6B81"
                   HeightRequest="100"
@@ -52,9 +67,7 @@
                   HorizontalOptions="EndAndExpand">
                  
             </Button>
-            
+            </StackLayout>
                 </StackLayout>
-            
-        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
