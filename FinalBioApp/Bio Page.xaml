@@ -6,9 +6,9 @@
           
           
          <Label Text ="Home" 
-                 FontSize="45"
+                 FontSize="50"
                  BackgroundColor="Maroon"
-                 HeightRequest="70"
+                 HeightRequest="100"
                  TextColor="White"
                  VerticalTextAlignment="Center"
                  HorizontalTextAlignment="Center"
@@ -19,7 +19,7 @@
                <StackLayout> 
          <Button Text="Biography"
                  FontSize="30"
-                 Margin="0,-15,0,0"
+                 Margin="0,-20,0,0"
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
                  WidthRequest="200"

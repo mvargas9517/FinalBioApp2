@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.SkillsPage">
+    <ContentPage.Content>
+         <StackLayout Spacing="58" BackgroundColor="LightGray">
+            
+            <Label Text ="Skills" 
+                 FontSize="45"
+                 BackgroundColor="Maroon"
+                 HeightRequest="70"
+                 TextColor="White"
+                 VerticalTextAlignment="Center"
+                 HorizontalTextAlignment="Center"
+                 HorizontalOptions="FillAndExpand">
+                 
+            </Label>
+            
+            <StackLayout Spacing="5">
+            
+            <Button Text="Home"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    WidthRequest="125">
+              
+            </Button>
+            
+               <Button Text="Biography"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    WidthRequest="125">
+              
+            </Button>
+            
+               <Button Text="Contact"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    WidthRequest="125">
+              
+            </Button>
+            
+            <BoxView BackgroundColor="Black"
+                     HorizontalOptions="FillAndExpand"
+                     HeightRequest="2"
+                     Margin="40,30,40,0">
+                     
+                </BoxView>
+                
+                   </StackLayout>
+                
+                    
+                <StackLayout Orientation="Horizontal">
+                <Label Text="- Visual Basic" 
+                       TextColor="Black" 
+                       Margin="50,0,0,0" 
+                       HorizontalOptions="Center" 
+                       FontSize="20">
+                </Label>
+               <Label Text="- HTML" 
+                       TextColor="Black" 
+                       Margin="40,0,0,0" 
+                       HorizontalOptions="Center" 
+                       FontSize="20">
+                </Label>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal"
+                             Spacing="80">
+                <Label Text="- CSS" 
+                       TextColor="Black" 
+                       Margin="50,-20,0,0" 
+                       HorizontalOptions="Center" 
+                       FontSize="20">
+                </Label>
+               <Label Text="- JavaScript" 
+                       TextColor="Black" 
+                       Margin="40,-20,0,0" 
+                       HorizontalOptions="Center" 
+                       FontSize="20">
+                </Label>
+                </StackLayout>
+                 <StackLayout Orientation="Horizontal"
+                             Spacing="29">
+                <Label Text="- MS Office" 
+                       TextColor="Black" 
+                       Margin="50,-20,0,0" 
+                       HorizontalOptions="Center" 
+                       FontSize="20">
+                </Label>
+               <Label Text="- Adobe XD" 
+                       TextColor="Black" 
+                       Margin="40,-20,0,0" 
+                       HorizontalOptions="Center"
+                       FontSize="20">
+                </Label>
+                </StackLayout>
+            
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

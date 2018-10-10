@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.MyPage">
+    <ContentPage.Content>
+        
+        <StackLayout Spacing="58" BackgroundColor="LightGray">
+            
+            <Label Text ="Biography" 
+                 FontSize="45"
+                 BackgroundColor="Maroon"
+                 HeightRequest="70"
+                 TextColor="White"
+                 VerticalTextAlignment="Center"
+                 HorizontalTextAlignment="Center"
+                 HorizontalOptions="FillAndExpand">
+                 
+            </Label>
+            
+            <StackLayout Spacing="15" Margin="-10">
+            
+            <Button Text="Home"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    WidthRequest="125"
+                    BackgroundColor="#2F6B81">
+              
+            </Button>
+            
+               <Button Text="My Skills"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    WidthRequest="125"
+                    BackgroundColor="#2F6B81">
+              
+            </Button>
+            
+               <Button Text="Contact"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    WidthRequest="125"
+                    BackgroundColor="#2F6B81">
+              
+            </Button>
+            
+            <BoxView BackgroundColor="Black"
+                     HorizontalOptions="FillAndExpand"
+                     HeightRequest="2"
+                     Margin="40,30,40,0">
+                     
+                </BoxView>
+                     
+  
+                <Label Text="My name is Macen Vargas and I am a senior at Pittsburg State University, majoring in Computer Information Systems. I have been interested in technology since I was young and am aspiring to be a Software/Application Developer. In my spare time I enjoy watching sports, golfing, and hanging out with my rescue animals."
+                       TextColor="Black"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center"
+                       HeightRequest="100"
+                       BackgroundColor="White"
+                       Margin="0,60,0,0"
+                       >
+                    </Label>
+                   
+                
+                
+                </StackLayout>
+            
+            
+            
+        </StackLayout>
+        
+        
+        
+    </ContentPage.Content>
+</ContentPage>

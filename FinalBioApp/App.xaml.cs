@@ -11,7 +11,7 @@ namespace FinalBioApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Home_Page();
         }
 
         protected override void OnStart()

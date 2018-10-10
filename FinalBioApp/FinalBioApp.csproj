@@ -14,11 +14,34 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="Home_Page.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="MyPage.cs" />
+    <Compile Remove="Bio_Page.xaml.cs" />
+    <Compile Remove="BiographyPage.xaml.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Bio.cs" />
+    <Compile Remove="Bio.xaml.cs" />
+    <Compile Remove="MainPage.xaml %28copy%29.cs" />
+    <Compile Remove="BioPage.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Pics\15193560_10157873443235010_7913375474009313200_n.jpg" />
     <None Remove="Pics\HTML-512.png" />
     <None Remove="Pics\message-icon-png-14.png" />
     <None Remove="Pics\user-480.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Home_Page %28copy%29.xaml" />
+    <EmbeddedResource Remove="Bio_Page.xaml" />
+    <EmbeddedResource Remove="BiographyPage.xaml" />
+    <EmbeddedResource Remove="Bio Page.xaml" />
+    <EmbeddedResource Remove="Bio.xaml" />
+    <EmbeddedResource Remove="MainPage %28copy%29.xaml" />
+    <EmbeddedResource Remove="BioPage.xaml" />
   </ItemGroup>
 </Project>

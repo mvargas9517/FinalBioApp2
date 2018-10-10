@@ -17,6 +17,6 @@
                 TextColor="White"
                 BackgroundColor="#2F6B81"
                 Margin="80"/>
-                
+
     </StackLayout>
 </ContentPage>
