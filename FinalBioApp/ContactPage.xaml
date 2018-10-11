@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.ContactPage">
+    <ContentPage.Content>
+                
+          <StackLayout Spacing="58" BackgroundColor="LightGray">
+            
+            <Label Text ="Contact" 
+                 FontSize="45"
+                 BackgroundColor="Maroon"
+                 HeightRequest="70"
+                 TextColor="White"
+                 VerticalTextAlignment="Center"
+                 HorizontalTextAlignment="Center"
+                 HorizontalOptions="FillAndExpand">
+                 
+            </Label>
+            
+            <StackLayout Spacing="13" Margin="-10">
+            
+            <Button Text="Home"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    BackgroundColor="#2F6B81"
+                    WidthRequest="125">
+              
+            </Button>
+            
+               <Button Text="Biography"
+                    HorizontalOptions="EndAndExpand"
+                    HeightRequest="70"
+                    BackgroundColor="#2F6B81"
+                    WidthRequest="125">
+              
+            </Button>
+            
+               <Button Text="Skills"
+                    HorizontalOptions="EndAndExpand"
+                    BackgroundColor="#2F6B81"
+                    HeightRequest="70"
+                    WidthRequest="125">
+              
+            </Button>
+            
+            <BoxView BackgroundColor="Black"
+                     HorizontalOptions="FillAndExpand"
+                     HeightRequest="2"
+                     Margin="40,30,40,0">
+                     
+                </BoxView>
+                <StackLayout Spacing="20">
+                    
+                 <Label Text="E-mail: mmvargas@gus.pittstate.edu" 
+                        TextColor="Black"
+                        HorizontalOptions="Center">
+                    </Label>  
+                    
+                 <Label Text="Phone: (620)-506-8515" 
+                        TextColor="Black"
+                        HorizontalOptions="Center">
+                    </Label>   
+                    
+                     <Label Text="GitHub: mvargas9517@live.com" 
+                        TextColor="Black"
+                        HorizontalOptions="Center">
+                    </Label>   
+                </StackLayout>
+                
+                
+             <BoxView BackgroundColor="Black"
+                     HorizontalOptions="FillAndExpand"
+                     HeightRequest="2"
+                     Margin="40,10,40,0">
+                     
+                </BoxView>
+                
+                   </StackLayout>
+                                    
+                
+            
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

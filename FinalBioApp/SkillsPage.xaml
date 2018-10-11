@@ -14,11 +14,12 @@
                  
             </Label>
             
-            <StackLayout Spacing="5">
+            <StackLayout Spacing="13" Margin="-10">
             
             <Button Text="Home"
                     HorizontalOptions="EndAndExpand"
                     HeightRequest="70"
+                    BackgroundColor="#2F6B81"
                     WidthRequest="125">
               
             </Button>
@@ -26,12 +27,14 @@
                <Button Text="Biography"
                     HorizontalOptions="EndAndExpand"
                     HeightRequest="70"
+                    BackgroundColor="#2F6B81"
                     WidthRequest="125">
               
             </Button>
             
                <Button Text="Contact"
                     HorizontalOptions="EndAndExpand"
+                    BackgroundColor="#2F6B81"
                     HeightRequest="70"
                     WidthRequest="125">
               
