@@ -30,7 +30,7 @@
             <StackLayout Orientation="Horizontal">
                <BoxView BackgroundColor="Black"
                         HorizontalOptions="FillAndExpand"
-                        HeightRequest="13"
+                        HeightRequest="12"
                         Margin="0,-10,0,0">
                     
                 </BoxView>
@@ -59,7 +59,7 @@
             
                 <StackLayout>
             <Button Text="Contact"
-                  Margin="0,0,0,60"
+                  Margin="0,0,0,20"
                   FontSize="30"
                   BackgroundColor="#2F6B81"
                   HeightRequest="100"

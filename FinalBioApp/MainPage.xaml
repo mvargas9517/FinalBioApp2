@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:local="clr-namespace:FinalBioApp" x:Class="FinalBioApp.MainPage">
-    
-    <StackLayout BackgroundColor="Silver"
+    <ScrollView>
+    <StackLayout BackgroundColor="LightGray"
                  Spacing="40">
         <Label Text="About Me"
                BackgroundColor="Maroon"
@@ -13,10 +13,14 @@
                FontSize="50"
                HorizontalOptions="Center"
                VerticalOptions="CenterAndExpand" />
+        
         <Button Text="Enter"
                 TextColor="White"
                 BackgroundColor="#2F6B81"
-                Margin="80"/>
+                Margin="80"
+                x:Name="EnterButton"
+                Clicked="Handle_Clicked"/>
                 
     </StackLayout>
+        </ScrollView>
 </ContentPage>
