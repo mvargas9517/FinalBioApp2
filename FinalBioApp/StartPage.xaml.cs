@@ -5,16 +5,16 @@ using Xamarin.Forms;
 
 namespace FinalBioApp
 {
-    public partial class MyPage : ContentPage
+    public partial class StartPage : ContentPage
     {
-        public MyPage()
+        public StartPage()
         {
             InitializeComponent();
         }
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
-            Navigation.PushAsync(new StartPage());
+            Navigation.PushAsync(new MyPage());
         }
         void Skills_Clicked(object sender, System.EventArgs e)
         {

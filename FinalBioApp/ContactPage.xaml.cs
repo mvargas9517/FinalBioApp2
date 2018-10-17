@@ -11,5 +11,18 @@ namespace FinalBioApp
         {
             InitializeComponent();
         }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new StartPage());
+        }
+        void Bio_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new MyPage());
+        }
+        void Skills_Clicked(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new SkillsPage());
+        }
     }
 }

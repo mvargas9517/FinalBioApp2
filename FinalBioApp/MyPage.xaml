@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.MyPage">
     <ContentPage.Content>
         
+        <ScrollView>
         <StackLayout Spacing="58" BackgroundColor="LightGray">
             
             <Label Text ="Biography" 
@@ -21,7 +22,9 @@
                     HorizontalOptions="EndAndExpand"
                     HeightRequest="70"
                     WidthRequest="125"
-                    BackgroundColor="#2F6B81">
+                    BackgroundColor="#2F6B81"
+                    x:Name="HomeBtn"
+                    Clicked="Handle_Clicked">
               
             </Button>
             
@@ -29,7 +32,9 @@
                     HorizontalOptions="EndAndExpand"
                     HeightRequest="70"
                     WidthRequest="125"
-                    BackgroundColor="#2F6B81">
+                    BackgroundColor="#2F6B81"
+                    x:Name="SkillsBtn"
+                    Clicked="Skills_Clicked">
               
             </Button>
             
@@ -37,7 +42,9 @@
                     HorizontalOptions="EndAndExpand"
                     HeightRequest="70"
                     WidthRequest="125"
-                    BackgroundColor="#2F6B81">
+                    BackgroundColor="#2F6B81"
+                    x:Name="ContactBtn"
+                    Clicked="Contact_Clicked">
               
             </Button>
             
@@ -67,7 +74,7 @@
             
         </StackLayout>
         
-        
+        </ScrollView>
         
     </ContentPage.Content>
 </ContentPage>

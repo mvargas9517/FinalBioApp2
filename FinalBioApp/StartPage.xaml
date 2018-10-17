@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.Home_Page">
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.StartPage">
     <ContentPage.Content>
         
-    <StackLayout Spacing="58" BackgroundColor="LightGray">
+        <ScrollView>
+        <StackLayout Spacing="58" BackgroundColor="LightGray">
           
           
          <Label Text ="Home" 
@@ -24,7 +25,8 @@
                  HeightRequest="100"
                  WidthRequest="200"
                  HorizontalOptions="EndAndExpand"
-                 x:Name="BioBtn">
+                 x:Name="BioBtn"
+                 Clicked="Handle_Clicked">
                  </Button> 
             </StackLayout>
 
@@ -44,7 +46,9 @@
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
                  WidthRequest="200"
-                 HorizontalOptions="Start">
+                 HorizontalOptions="Start"
+                 x:Name="SkillsBtn"
+                 Clicked="Skills_Clicked">
             </Button>
                 
                <StackLayout Orientation="Horizontal">
@@ -65,10 +69,13 @@
                   BackgroundColor="#2F6B81"
                   HeightRequest="100"
                   WidthRequest="200"
-                  HorizontalOptions="EndAndExpand">
+                  HorizontalOptions="EndAndExpand"
+                  x:Name="ContactBtn"
+                  Clicked="Contact_Clicked">
                  
             </Button>
             </StackLayout>
                 </StackLayout>
+            </ScrollView>
     </ContentPage.Content>
 </ContentPage>

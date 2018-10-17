@@ -31,6 +31,9 @@
     <Compile Remove="Home_Page.xaml %28copy%29.cs" />
     <Compile Remove="Home_Page.xaml %28copy%29.cs" />
     <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="StartPage.cs" />
+    <Compile Remove="Home_Page.xaml.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Pics\15193560_10157873443235010_7913375474009313200_n.jpg" />
@@ -46,5 +49,6 @@
     <EmbeddedResource Remove="Bio.xaml" />
     <EmbeddedResource Remove="MainPage %28copy%29.xaml" />
     <EmbeddedResource Remove="BioPage.xaml" />
+    <EmbeddedResource Remove="Home_Page.xaml" />
   </ItemGroup>
 </Project>
