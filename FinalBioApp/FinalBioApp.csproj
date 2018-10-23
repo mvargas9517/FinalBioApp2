@@ -34,6 +34,8 @@
     <Compile Remove="Home_Page.xaml %28copy%29.cs" />
     <Compile Remove="StartPage.cs" />
     <Compile Remove="Home_Page.xaml.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
+    <Compile Remove="Home_Page.xaml %28copy%29.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Pics\15193560_10157873443235010_7913375474009313200_n.jpg" />

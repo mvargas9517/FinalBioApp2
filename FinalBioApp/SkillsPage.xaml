@@ -3,9 +3,9 @@
     <ContentPage.Content>
         
         <ScrollView>
-         <StackLayout Spacing="58" BackgroundColor="LightGray">
-            
-            <Label Text ="Skills" 
+       
+            <StackLayout BackgroundColor="Lightgray">
+                <Label Text ="Skills" 
                  FontSize="45"
                  BackgroundColor="Maroon"
                  HeightRequest="70"
@@ -15,98 +15,80 @@
                  HorizontalOptions="FillAndExpand">
                  
             </Label>
-            
-            <StackLayout Spacing="13" Margin="-10">
-            
-            <Button Text="Home"
-                    HorizontalOptions="EndAndExpand"
+                
+        <Grid Margin="0,50,0,0">
+                    
+              <Grid.RowDefinitions>
+                        <RowDefinition Height="150"></RowDefinition>
+                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="3*"></RowDefinition>
+                        <RowDefinition Height="2*"></RowDefinition> 
+                        <RowDefinition Height="1*"></RowDefinition>
+                    </Grid.RowDefinitions>
+                    
+               <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    
+                <Image Source="Computer.png" 
+                       Grid.Row="0" 
+                       Grid.Column="1"
+                       Margin="0,0,65,-100"
+                       ></Image> 
+                    
+                   <StackLayout Spacing="13"> 
+                        
+                <Button Text="Home"
+                    HorizontalOptions="StartAndExpand"
                     HeightRequest="70"
                     BackgroundColor="#2F6B81"
                     WidthRequest="125"
-                    x:Name="HomeBtn"
+                    x:Name="StartBtn"
                     Clicked="Handle_Clicked">
               
             </Button>
-            
-               <Button Text="Biography"
-                    HorizontalOptions="EndAndExpand"
+                        
+               <Button Text="Bio"
+                    HorizontalOptions="StartAndExpand"
                     HeightRequest="70"
                     BackgroundColor="#2F6B81"
                     WidthRequest="125"
-                    x:Name="BioBtn"
+                    x:Name="SkillsBtn"
                     Clicked="Bio_Clicked">
               
             </Button>
-            
-               <Button Text="Contact"
-                    HorizontalOptions="EndAndExpand"
-                    BackgroundColor="#2F6B81"
+                        
+              <Button Text="Contact"
+                    HorizontalOptions="StartAndExpand"
                     HeightRequest="70"
+                    BackgroundColor="#2F6B81"
                     WidthRequest="125"
                     x:Name="ContactBtn"
                     Clicked="Contact_Clicked">
               
             </Button>
-            
-            <BoxView BackgroundColor="Black"
-                     HorizontalOptions="FillAndExpand"
-                     HeightRequest="2"
-                     Margin="40,30,40,0">
-                     
-                </BoxView>
                 
-                   </StackLayout>
+             </StackLayout>   
                 
-                    
+                
+            </Grid>
+                
                 <StackLayout Orientation="Horizontal">
-                <Label Text="- Visual Basic" 
-                       TextColor="Black" 
-                       Margin="50,0,0,0" 
-                       HorizontalOptions="Center" 
-                       FontSize="20">
-                </Label>
-               <Label Text="- HTML" 
-                       TextColor="Black" 
-                       Margin="40,0,0,0" 
-                       HorizontalOptions="Center" 
-                       FontSize="20">
-                </Label>
+                <BoxView BackgroundColor="Black"
+                         HorizontalOptions="FillAndExpand"
+                         HeightRequest="2"
+                         Margin="70,130,70,0">
+                </BoxView>
+                    
                 </StackLayout>
-                <StackLayout Orientation="Horizontal"
-                             Spacing="80">
-                <Label Text="- CSS" 
-                       TextColor="Black" 
-                       Margin="50,-20,0,0" 
-                       HorizontalOptions="Center" 
-                       FontSize="20">
-                </Label>
-               <Label Text="- JavaScript" 
-                       TextColor="Black" 
-                       Margin="40,-20,0,0" 
-                       HorizontalOptions="Center" 
-                       FontSize="20">
-                </Label>
+               
+                    
+                    
                 </StackLayout>
-                 <StackLayout Orientation="Horizontal"
-                             Spacing="29">
-                <Label Text="- MS Office" 
-                       TextColor="Black" 
-                       Margin="50,-20,0,0" 
-                       HorizontalOptions="Center" 
-                       FontSize="20">
-                </Label>
-               <Label Text="- Adobe XD" 
-                       TextColor="Black" 
-                       Margin="40,-20,0,0" 
-                       HorizontalOptions="Center"
-                       FontSize="20">
-                </Label>
-                </StackLayout>
-            
-            
-        </StackLayout>
-        
-            </ScrollView>
+
+  
+        </ScrollView>
         
     </ContentPage.Content>
 </ContentPage>

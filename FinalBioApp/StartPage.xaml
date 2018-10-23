@@ -3,7 +3,7 @@
     <ContentPage.Content>
         
         <ScrollView>
-        <StackLayout Spacing="58" BackgroundColor="LightGray">
+        <StackLayout Spacing="57" BackgroundColor="LightGray">
           
           
          <Label Text ="Home" 
@@ -17,7 +17,10 @@
                  
             </Label>
             
-               <StackLayout> 
+               <StackLayout Orientation="Horizontal"> 
+                  <Image Source="person.png"
+                           HeightRequest="85"
+                            Margin="30,0,0,0"></Image>
          <Button Text="Biography"
                  FontSize="30"
                  Margin="0,-15,0,0"
@@ -28,6 +31,8 @@
                  x:Name="BioBtn"
                  Clicked="Handle_Clicked">
                  </Button> 
+         
+                    
             </StackLayout>
 
             <StackLayout Orientation="Horizontal">
@@ -39,10 +44,10 @@
                 </BoxView>
             </StackLayout>
             
-                <StackLayout>
+                <StackLayout Orientation="Horizontal">
             <Button Text="Skills"
                  FontSize="30"
-                 Margin="0,0,0,40"
+                 Margin="0,0,0,0"
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
                  WidthRequest="200"
@@ -50,19 +55,27 @@
                  x:Name="SkillsBtn"
                  Clicked="Skills_Clicked">
             </Button>
+                    
+           <Image Source="Computer.png"
+                  HeightRequest="81"
+                  Margin="50,0,0,0"></Image>
+                    
+                </StackLayout>
                 
                <StackLayout Orientation="Horizontal">
                <BoxView BackgroundColor="Black"
                         HorizontalOptions="FillAndExpand"
                         Margin="0,0,0,0"
                         HeightRequest="13">
-                        
                         </BoxView>
-                </StackLayout>
                 
             </StackLayout>
             
-                <StackLayout>
+                <StackLayout Orientation="Horizontal">
+                    
+               <Image Source="contact.png"
+                   HeightRequest="70"></Image>     
+                    
             <Button Text="Contact"
                   Margin="0,0,0,20"
                   FontSize="30"
@@ -71,10 +84,11 @@
                   WidthRequest="200"
                   HorizontalOptions="EndAndExpand"
                   x:Name="ContactBtn"
-                  Clicked="Contact_Clicked">
-                 
+                  Clicked="Contact_Clicked">   
             </Button>
+             
             </StackLayout>
+ 
                 </StackLayout>
             </ScrollView>
     </ContentPage.Content>

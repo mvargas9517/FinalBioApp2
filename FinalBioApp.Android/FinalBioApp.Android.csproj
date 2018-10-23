@@ -88,6 +88,9 @@
     <AndroidResource Include="Resources\drawable-xhdpi\person.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\person.png" />
     <AndroidResource Include="Resources\drawable-xxxhdpi\person.png" />
+    <AndroidResource Include="Resources\drawable\contact.png" />
+    <AndroidResource Include="Resources\drawable\html.png" />
+    <AndroidResource Include="Resources\drawable\Computer.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
