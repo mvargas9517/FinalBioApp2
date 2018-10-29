@@ -74,24 +74,60 @@
                 
             </Grid>
                 
+              
+                
                 <StackLayout Orientation="Horizontal">
                 <BoxView BackgroundColor="Black"
                          HorizontalOptions="FillAndExpand"
                          HeightRequest="2"
-                         Margin="70,120,70,0">
+                         Margin="50,120,50,0">
                 </BoxView>
                     
                     
                 </StackLayout>
                
+                 <StackLayout Spacing="30"
+                             Margin="27,30,0,0">
                <StackLayout Orientation="Horizontal">
                <Label Text="- Visual Basic"  
                       TextColor="Black"
+                      FontSize="18"
                       HorizontalOptions="StartAndExpand"
-                      FontSize="20"
-                      Margin="20,0,0,0"></Label>
+                      Margin="20,0,0,0"/>
+               <Label Text="- CSS"
+                      TextColor="Black"
+                      HorizontalOptions="CenterAndExpand"
+                      FontSize="18"
+                      Margin="0,0,80,0"/>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+               <Label Text="- MS Office"  
+                      TextColor="Black"
+                      HorizontalOptions="StartAndExpand"
+                      FontSize="18"
+                      Margin="20,0,0,0"/>
+               <Label Text="- HTML"
+                      TextColor="Black"
+                      HorizontalOptions="CenterAndExpand"
+                      FontSize="18"
+                      Margin="0,0,65,0"/>
                 </StackLayout>
                     
+                <StackLayout Orientation="Horizontal">
+               <Label Text="- Javascript"  
+                      TextColor="Black"
+                      HorizontalOptions="StartAndExpand"
+                      FontSize="18"
+                      Margin="20,0,0,0"/>
+               <Label Text="- Adobe XD"
+                      TextColor="Black"
+                      HorizontalOptions="CenterAndExpand"
+                      FontSize="18"
+                      Margin="0,0,60,0"/>
+                </StackLayout>  
+                
+                 </StackLayout>   
                     
                 </StackLayout>
                 

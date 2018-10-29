@@ -89,9 +89,10 @@
                 
                 <StackLayout Padding="10">
              <Label Text="My name is Macen Vargas and I am a senior at Pittsburg State University, majoring in Computer Information Systems. I have been interested in technology since I was young and am aspiring to be a Software/Application Developer. In my spare time I enjoy watching sports, golfing, and hanging out with my rescue animals."
-                       Margin="0,40,0,0"
+                       Margin="0,20,0,0"
                     HorizontalTextAlignment="Center"
-                    TextColor="Black"/>
+                    TextColor="Black"
+                    FontSize="17"/>
                     </StackLayout>
                 
                 </StackLayout>

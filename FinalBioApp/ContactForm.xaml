@@ -17,7 +17,8 @@
            <Entry Placeholder="E-mail"
                   x:Name="EmailEntry"/>
                 
-            <Editor HeightRequest="100"
+            <Editor HeightRequest="80"
+                    Placeholder="Message"
                     x:Name="MessageEntry"></Editor>
             
             <Button Text="Submit"
