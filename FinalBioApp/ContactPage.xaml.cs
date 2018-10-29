@@ -24,5 +24,10 @@ namespace FinalBioApp
         {
             Navigation.PushAsync(new SkillsPage());
         }
+
+        void Phone_Tapped(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ContactForm());
+        }
     }
 }

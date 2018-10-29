@@ -4,7 +4,8 @@
         
         <ScrollView>
        
-            <StackLayout BackgroundColor="Lightgray">
+            <StackLayout BackgroundColor="Lightgray"
+                         Padding="5">
                 <Label Text ="Skills" 
                  FontSize="45"
                  BackgroundColor="Maroon"
@@ -16,11 +17,10 @@
                  
             </Label>
                 
-        <Grid Margin="0,50,0,0">
+        <Grid Margin="0,50,0,25">
                     
               <Grid.RowDefinitions>
-                        <RowDefinition Height="150"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="120"></RowDefinition>
                         <RowDefinition Height="3*"></RowDefinition>
                         <RowDefinition Height="2*"></RowDefinition> 
                         <RowDefinition Height="1*"></RowDefinition>
@@ -34,7 +34,7 @@
                 <Image Source="Computer.png" 
                        Grid.Row="0" 
                        Grid.Column="1"
-                       Margin="0,0,65,-100"
+                       Margin="0,0,70,-110"
                        ></Image> 
                     
                    <StackLayout Spacing="13"> 
@@ -54,7 +54,7 @@
                     HeightRequest="70"
                     BackgroundColor="#2F6B81"
                     WidthRequest="125"
-                    x:Name="SkillsBtn"
+                    x:Name="BioBtn"
                     Clicked="Bio_Clicked">
               
             </Button>
@@ -78,15 +78,23 @@
                 <BoxView BackgroundColor="Black"
                          HorizontalOptions="FillAndExpand"
                          HeightRequest="2"
-                         Margin="70,130,70,0">
+                         Margin="70,120,70,0">
                 </BoxView>
+                    
                     
                 </StackLayout>
                
+               <StackLayout Orientation="Horizontal">
+               <Label Text="- Visual Basic"  
+                      TextColor="Black"
+                      HorizontalOptions="StartAndExpand"
+                      FontSize="20"
+                      Margin="20,0,0,0"></Label>
+                </StackLayout>
                     
                     
                 </StackLayout>
-
+                
   
         </ScrollView>
         

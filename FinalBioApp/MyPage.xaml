@@ -4,7 +4,8 @@
         
         <ScrollView>
        
-            <StackLayout BackgroundColor="Lightgray">
+            <StackLayout BackgroundColor="Lightgray"
+                         Padding="5">
                 <Label Text ="Biography" 
                  FontSize="45"
                  BackgroundColor="Maroon"
@@ -16,11 +17,10 @@
                  
             </Label>
                 
-        <Grid Margin="0,50,0,0">
+        <Grid Margin="0,50,0,25">
                     
               <Grid.RowDefinitions>
-                        <RowDefinition Height="150"></RowDefinition>
-                        <RowDefinition Height="Auto"></RowDefinition>
+                        <RowDefinition Height="120"></RowDefinition>
                         <RowDefinition Height="3*"></RowDefinition>
                         <RowDefinition Height="2*"></RowDefinition> 
                         <RowDefinition Height="1*"></RowDefinition>
@@ -31,12 +31,14 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     
-                <Image Source="person.png" 
+                    
+                <Image Source="person.png"
                        Grid.Row="0" 
                        Grid.Column="1"
-                       Margin="0,0,65,-100"
+                       Margin="20,0,90,-100"
+                       HeightRequest="80"
                        ></Image> 
-                    
+                   
                    <StackLayout Spacing="13"> 
                         
                 <Button Text="Home"
@@ -78,18 +80,20 @@
                 <BoxView BackgroundColor="Black"
                          HorizontalOptions="FillAndExpand"
                          HeightRequest="2"
-                         Margin="70,130,70,0">
+                         Margin="70,120,70,0">
                 </BoxView>
                     
 
                     
                 </StackLayout>
                 
+                <StackLayout Padding="10">
              <Label Text="My name is Macen Vargas and I am a senior at Pittsburg State University, majoring in Computer Information Systems. I have been interested in technology since I was young and am aspiring to be a Software/Application Developer. In my spare time I enjoy watching sports, golfing, and hanging out with my rescue animals."
                        Margin="0,40,0,0"
-                    TextColor="Black"
-                    />
-                    
+                    HorizontalTextAlignment="Center"
+                    TextColor="Black"/>
+                    </StackLayout>
+                
                 </StackLayout>
 
                

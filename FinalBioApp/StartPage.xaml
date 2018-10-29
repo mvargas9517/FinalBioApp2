@@ -3,7 +3,9 @@
     <ContentPage.Content>
         
         <ScrollView>
-        <StackLayout Spacing="57" BackgroundColor="LightGray">
+        <StackLayout Spacing="57" 
+                     BackgroundColor="LightGray"
+                     Padding="5">
           
           
          <Label Text ="Home" 
@@ -57,13 +59,13 @@
             </Button>
                     
            <Image Source="Computer.png"
-                  HeightRequest="81"
+                  HeightRequest="90"
                   Margin="50,0,0,0"></Image>
                     
                 </StackLayout>
                 
                <StackLayout Orientation="Horizontal">
-               <BoxView BackgroundColor="Black"
+               <BoxView BackgroundColor= "Black"
                         HorizontalOptions="FillAndExpand"
                         Margin="0,0,0,0"
                         HeightRequest="13">
@@ -74,10 +76,11 @@
                 <StackLayout Orientation="Horizontal">
                     
                <Image Source="contact.png"
-                   HeightRequest="70"></Image>     
+                   HeightRequest="80"
+                   Margin="20,0,0,0"></Image>     
                     
             <Button Text="Contact"
-                  Margin="0,0,0,20"
+                  Margin="0,0,0,15"
                   FontSize="30"
                   BackgroundColor="#2F6B81"
                   HeightRequest="100"
