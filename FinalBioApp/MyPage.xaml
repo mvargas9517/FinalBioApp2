@@ -31,14 +31,13 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     
-                    
-                <Image Source="person.png"
+                <Image x:Name="Macen"
+                       Source="Macen.jpg"
                        Grid.Row="0" 
                        Grid.Column="1"
-                       Margin="20,0,90,-100"
-                       HeightRequest="80"
+                       Margin="-65,70,0,-80"
                        ></Image> 
-                   
+                            
                    <StackLayout Spacing="13"> 
                         
                 <Button Text="Home"

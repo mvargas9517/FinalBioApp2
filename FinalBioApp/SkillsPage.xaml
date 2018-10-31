@@ -34,8 +34,7 @@
                 <Image Source="Computer.png" 
                        Grid.Row="0" 
                        Grid.Column="1"
-                       Margin="0,0,70,-110"
-                       ></Image> 
+                       Margin="0,0,70,-110"></Image> 
                     
                    <StackLayout Spacing="13"> 
                         
@@ -82,52 +81,50 @@
                          HeightRequest="2"
                          Margin="50,120,50,0">
                 </BoxView>
-                    
-                    
-                </StackLayout>
-               
-                 <StackLayout Spacing="30"
-                             Margin="27,30,0,0">
-               <StackLayout Orientation="Horizontal">
-               <Label Text="- Visual Basic"  
-                      TextColor="Black"
-                      FontSize="18"
-                      HorizontalOptions="StartAndExpand"
-                      Margin="20,0,0,0"/>
-               <Label Text="- CSS"
-                      TextColor="Black"
-                      HorizontalOptions="CenterAndExpand"
-                      FontSize="18"
-                      Margin="0,0,80,0"/>
-                </StackLayout>
+
+                 </StackLayout>
                 
-                <StackLayout Orientation="Horizontal">
-               <Label Text="- MS Office"  
-                      TextColor="Black"
-                      HorizontalOptions="StartAndExpand"
-                      FontSize="18"
-                      Margin="20,0,0,0"/>
-               <Label Text="- HTML"
-                      TextColor="Black"
-                      HorizontalOptions="CenterAndExpand"
-                      FontSize="18"
-                      Margin="0,0,65,0"/>
-                </StackLayout>
-                    
-                <StackLayout Orientation="Horizontal">
-               <Label Text="- Javascript"  
-                      TextColor="Black"
-                      HorizontalOptions="StartAndExpand"
-                      FontSize="18"
-                      Margin="20,0,0,0"/>
-               <Label Text="- Adobe XD"
-                      TextColor="Black"
-                      HorizontalOptions="CenterAndExpand"
-                      FontSize="18"
-                      Margin="0,0,60,0"/>
-                </StackLayout>  
                 
-                 </StackLayout>   
+                    
+                    <ScrollView>
+                    <ListView x:Name="SkillsListView"
+                              HasUnevenRows="true">
+                        <ListView.ItemTemplate>
+                            <DataTemplate>
+                                <ViewCell>
+                                    
+                               <Grid>
+                                    <Grid.RowDefinitions>
+                                            <RowDefinition Height="55"/>
+                                             <RowDefinition Height="*"/>              
+                                        </Grid.RowDefinitions>
+                                        
+                                        <Grid.ColumnDefinitions>
+                                            <ColumnDefinition Width="50"/>
+                                            <ColumnDefinition Width="*"/>
+                                        </Grid.ColumnDefinitions>
+                                        
+                                        <Label Text="{Binding Name}"
+                                               FontAttributes="Bold"
+                                               FontSize="24"
+                                               Grid.Row="0"
+                                               Grid.Column="1"/>
+                                        <Label Text="{Binding Description}"
+                                               FontAttributes="Bold"
+                                               FontSize="18"
+                                               Grid.Row="1"
+                                               Grid.Column="1"/>
+                                        
+                                    </Grid>     
+                                    
+                                    
+                                </ViewCell>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                    </ListView>
+                   </ScrollView>
+                    
+                    
                     
                 </StackLayout>
                 

@@ -24,7 +24,7 @@
                            HeightRequest="85"
                             Margin="30,0,0,0"></Image>
          <Button Text="Biography"
-                 FontSize="25"
+                 FontSize="22"
                  Margin="0,-15,0,0"
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
@@ -48,7 +48,7 @@
             
                 <StackLayout Orientation="Horizontal">
             <Button Text="Skills"
-                 FontSize="25"
+                 FontSize="22"
                  Margin="0,0,0,0"
                  BackgroundColor="#2F6B81"
                  HeightRequest="100"
@@ -81,7 +81,7 @@
                     
             <Button Text="Contact"
                   Margin="0,0,0,15"
-                  FontSize="25"
+                  FontSize="22"
                   BackgroundColor="#2F6B81"
                   HeightRequest="100"
                   WidthRequest="200"
