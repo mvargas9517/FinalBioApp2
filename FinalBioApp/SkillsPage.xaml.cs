@@ -16,17 +16,17 @@ namespace FinalBioApp
             this.Skills = new ObservableCollection<Skill>();
 
             this.Skills.Add(new Skill 
-            { Description = "Building Quieries in SQL", Name = "SQL" });
+            { Description = "Building Quieries in SQL", Name = "SQL" , Icon ="SQL.png"});
             this.Skills.Add(new Skill 
-            { Description = "Can work all MS Office", Name = "MS Office" });
+            { Description = "Can work all MS Office", Name = "MS Office", Icon ="MSOffice.jpg" });
             this.Skills.Add(new Skill 
-            { Description = "Can desing in CSS", Name = "CSS" });
+            { Description = "Can desing in CSS", Name = "CSS", Icon="CSS.png" });
             this.Skills.Add(new Skill 
-            { Description = "Can build websites with HTML", Name = "HTML" });
+            { Description = "Can build websites with HTML", Name = "HTML", Icon="HTML.png" });
             this.Skills.Add(new Skill 
-            { Description = "Can build Mockups in XD", Name = "Adobe XD" });
+            { Description = "Can build Mockups in XD", Name = "Adobe XD", Icon="XD.png" });
             this.Skills.Add(new Skill 
-            { Description = "Coding in Javascript", Name = "Javascript" });
+            { Description = "Coding in Javascript", Name = "Javascript", Icon="Javascript.jpg" });
 
             SkillsListView.ItemsSource = this.Skills;
         }
@@ -48,6 +48,8 @@ namespace FinalBioApp
             public string Name { get; set; }
 
             public string Description { get; set; }
+
+            public string Icon { get; set; }
         }
     }
 }

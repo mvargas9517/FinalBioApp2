@@ -10,7 +10,7 @@
                 <Label Text ="Contact" 
                  FontSize="45"
                  BackgroundColor="Maroon"
-                 HeightRequest="70"
+                 HeightRequest="75"
                  TextColor="White"
                  VerticalTextAlignment="Center"
                  HorizontalTextAlignment="Center"

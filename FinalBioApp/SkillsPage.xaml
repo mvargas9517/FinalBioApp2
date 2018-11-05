@@ -9,7 +9,7 @@
                 <Label Text ="Skills" 
                  FontSize="45"
                  BackgroundColor="Maroon"
-                 HeightRequest="70"
+                 HeightRequest="75"
                  TextColor="White"
                  VerticalTextAlignment="Center"
                  HorizontalTextAlignment="Center"
@@ -95,7 +95,7 @@
                                     
                                <Grid>
                                     <Grid.RowDefinitions>
-                                            <RowDefinition Height="55"/>
+                                            <RowDefinition Height="50"/>
                                              <RowDefinition Height="*"/>              
                                         </Grid.RowDefinitions>
                                         
@@ -106,14 +106,20 @@
                                         
                                         <Label Text="{Binding Name}"
                                                FontAttributes="Bold"
-                                               FontSize="24"
+                                               FontSize="30"
                                                Grid.Row="0"
                                                Grid.Column="1"/>
                                         <Label Text="{Binding Description}"
-                                               FontAttributes="Bold"
+                                               FontAttributes="None"
                                                FontSize="18"
                                                Grid.Row="1"
                                                Grid.Column="1"/>
+                                        <Image Source="{Binding Icon}"
+                                               WidthRequest="50"
+                                               HeightRequest="50"
+                                               Grid.Row="0"
+                                               Grid.Column="0"
+                                               Grid.RowSpan="2"/>
                                         
                                     </Grid>     
                                     
