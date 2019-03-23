@@ -14,7 +14,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v8.1</TargetFrameworkVersion>
     <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
     <NuGetPackageImportStamp></NuGetPackageImportStamp>
@@ -102,9 +101,9 @@
     <AndroidResource Include="Resources\drawable\SQL.png" />
     <AndroidResource Include="Resources\drawable\MSOffice.jpg" />
     <AndroidResource Include="Resources\drawable\CSS.png" />
-    <AndroidResource Include="Resources\drawable\HTML.png" />
     <AndroidResource Include="Resources\drawable\XD.png" />
     <AndroidResource Include="Resources\drawable\Javascript.jpg" />
+    <AndroidResource Include="Resources\drawable\HTML.png" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

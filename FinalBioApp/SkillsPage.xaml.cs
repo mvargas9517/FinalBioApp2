@@ -30,6 +30,14 @@ namespace FinalBioApp
 
             SkillsListView.ItemsSource = this.Skills;
         }
+        public class Skill
+        {
+            public string Name { get; set; }
+
+            public string Description { get; set; }
+
+            public string Icon { get; set; }
+        }
 
         void Handle_Clicked(object sender, System.EventArgs e)
         {
@@ -42,14 +50,6 @@ namespace FinalBioApp
         void Contact_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new ContactPage());
-        }
-        public class Skill
-        {
-            public string Name { get; set; }
-
-            public string Description { get; set; }
-
-            public string Icon { get; set; }
         }
     }
 }

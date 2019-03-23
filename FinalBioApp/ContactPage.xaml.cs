@@ -12,6 +12,11 @@ namespace FinalBioApp
             InitializeComponent();
         }
 
+        void Phone_Tapped(object sender, System.EventArgs e)
+        {
+            Navigation.PushAsync(new ContactForm());
+        }
+
         void Handle_Clicked(object sender, System.EventArgs e)
         {
             Navigation.PushAsync(new StartPage());
@@ -25,9 +30,5 @@ namespace FinalBioApp
             Navigation.PushAsync(new SkillsPage());
         }
 
-        void Phone_Tapped(object sender, System.EventArgs e)
-        {
-            Navigation.PushAsync(new ContactForm());
-        }
     }
 }

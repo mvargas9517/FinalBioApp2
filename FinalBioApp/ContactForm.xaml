@@ -2,31 +2,40 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="FinalBioApp.ContactForm">
     <ContentPage.Content>
         <ScrollView>
-        <StackLayout BackgroundColor="Gray"
-                     Padding="5"
+        <StackLayout BackgroundColor="Lightgray"
                      Spacing="85">
             
             <Label Text="Contact Form"
                    FontSize="40"
+                   HeightRequest="75"
                    HorizontalTextAlignment="Center"
-                   BackgroundColor="Maroon"
+                   BackgroundColor="Black"
                    TextColor="White"/>
             
           <Entry Placeholder="Name"
+                 PlaceholderColor="Black"
                  x:Name="NameEntry"/>
-           <Entry Placeholder="E-mail"
+                
+          <Entry Placeholder="E-mail"
+                  PlaceholderColor="Black"
                   x:Name="EmailEntry"/>
                 
-            <Editor HeightRequest="80"
+          <Editor HeightRequest="57"
                     Placeholder="Message"
+                    PlaceholderColor="Black"
                     x:Name="MessageEntry"></Editor>
             
-            <Button Text="Submit"
-                    BackgroundColor="#2F6B81"
+          <Button Text="Submit"
+                    BackgroundColor="#374c7b"
                     TextColor="White"
                     x:Name="Submit"
-                    Clicked="Handle_Clicked"/>
+                    Clicked="Handle_Clicked"
+                  Margin="0,26,0,0"
+                    HeightRequest="70"/>
+                
         </StackLayout>
+            
             </ScrollView>
+        
     </ContentPage.Content>
 </ContentPage>

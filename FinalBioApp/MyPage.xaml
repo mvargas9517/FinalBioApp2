@@ -8,8 +8,8 @@
                          Padding="5">
                 <Label Text ="Biography" 
                  FontSize="45"
-                 BackgroundColor="Maroon"
-                 HeightRequest="75"
+                 BackgroundColor="Black"
+                 HeightRequest="80"
                  TextColor="White"
                  VerticalTextAlignment="Center"
                  HorizontalTextAlignment="Center"
@@ -17,33 +17,38 @@
                  
             </Label>
                 
-        <Grid Margin="0,50,0,25">
+        <Grid Margin="0,50,0,25"
+              RowSpacing="10">
                     
               <Grid.RowDefinitions>
-                        <RowDefinition Height="120"></RowDefinition>
-                        <RowDefinition Height="3*"></RowDefinition>
-                        <RowDefinition Height="2*"></RowDefinition> 
-                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="auto"></RowDefinition>
+                        <RowDefinition Height="75"></RowDefinition>
+                        <RowDefinition Height="75"></RowDefinition> 
                     </Grid.RowDefinitions>
                     
                <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
+                        <ColumnDefinition Width="auto"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
+                    
                     
                 <Image x:Name="Macen"
                        Source="Macen.jpg"
                        Grid.Row="0" 
                        Grid.Column="1"
-                       Margin="-65,70,0,-80"
-                       ></Image> 
+                       Grid.RowSpan="3"
+                       HeightRequest="0"
+                       WidthRequest="0"
+                       Margin="10, 0, 0,0"
+                        ></Image>
+                        
                             
-                   <StackLayout Spacing="13"> 
                         
                 <Button Text="Home"
+                        Grid.Row="0"
                     HorizontalOptions="StartAndExpand"
-                    HeightRequest="70"
-                    BackgroundColor="#2F6B81"
+                    HeightRequest="75"
+                    BackgroundColor="#374c7b"
                     WidthRequest="125"
                     x:Name="StartBtn"
                     Clicked="Handle_Clicked">
@@ -51,9 +56,9 @@
             </Button>
                         
                <Button Text="Skills"
+                       Grid.Row="1"
                     HorizontalOptions="StartAndExpand"
-                    HeightRequest="70"
-                    BackgroundColor="#2F6B81"
+                    BackgroundColor="#374c7b"
                     WidthRequest="125"
                     x:Name="SkillsBtn"
                     Clicked="Skills_Clicked">
@@ -61,16 +66,15 @@
             </Button>
                         
               <Button Text="Contact"
+                      Grid.Row="2"
                     HorizontalOptions="StartAndExpand"
-                    HeightRequest="70"
-                    BackgroundColor="#2F6B81"
+                    BackgroundColor="#374c7b"
                     WidthRequest="125"
                     x:Name="ContactBtn"
                     Clicked="Contact_Clicked">
               
             </Button>
-                
-             </StackLayout>   
+                 
                 
                 
             </Grid>
@@ -79,7 +83,7 @@
                 <BoxView BackgroundColor="Black"
                          HorizontalOptions="FillAndExpand"
                          HeightRequest="2"
-                         Margin="70,120,70,0">
+                         Margin="50,10,50,0">
                 </BoxView>
                     
 
@@ -88,7 +92,7 @@
                 
                 <StackLayout Padding="10">
              <Label Text="My name is Macen Vargas and I am a senior at Pittsburg State University, majoring in Computer Information Systems. I have been interested in technology since I was young and am aspiring to be a Software/Application Developer. In my spare time I enjoy watching sports, golfing, and hanging out with my rescue animals."
-                       Margin="0,20,0,0"
+                       Margin="0,10,0,0"
                     HorizontalTextAlignment="Center"
                     TextColor="Black"
                     FontSize="17"/>

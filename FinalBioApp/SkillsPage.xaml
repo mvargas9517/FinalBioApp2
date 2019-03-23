@@ -8,8 +8,8 @@
                          Padding="5">
                 <Label Text ="Skills" 
                  FontSize="45"
-                 BackgroundColor="Maroon"
-                 HeightRequest="75"
+                 BackgroundColor="Black"
+                 HeightRequest="80"
                  TextColor="White"
                  VerticalTextAlignment="Center"
                  HorizontalTextAlignment="Center"
@@ -17,31 +17,34 @@
                  
             </Label>
                 
-        <Grid Margin="0,50,0,25">
+        <Grid Margin="0,40,0,25"
+              RowSpacing="10">
                     
               <Grid.RowDefinitions>
-                        <RowDefinition Height="120"></RowDefinition>
-                        <RowDefinition Height="3*"></RowDefinition>
-                        <RowDefinition Height="2*"></RowDefinition> 
-                        <RowDefinition Height="1*"></RowDefinition>
+                        <RowDefinition Height="75"></RowDefinition>
+                        <RowDefinition Height="75"></RowDefinition>
+                        <RowDefinition Height="75"></RowDefinition>
                     </Grid.RowDefinitions>
                     
                <Grid.ColumnDefinitions>
-                        <ColumnDefinition/>
-                        <ColumnDefinition/>
+                        <ColumnDefinition>
+                        </ColumnDefinition>
                     </Grid.ColumnDefinitions>
                     
-                <Image Source="Computer.png" 
-                       Grid.Row="0" 
+                <Image Source="Computer.png"
+                       Grid.Row="0"
                        Grid.Column="1"
-                       Margin="0,0,70,-110"></Image> 
+                       Grid.RowSpan="3"
+                       Margin="0,0,70,0">
+                    </Image> 
                     
-                   <StackLayout Spacing="13"> 
+                  
                         
                 <Button Text="Home"
+                    Grid.Row="0"
                     HorizontalOptions="StartAndExpand"
-                    HeightRequest="70"
-                    BackgroundColor="#2F6B81"
+                    
+                    BackgroundColor="#374c7b"
                     WidthRequest="125"
                     x:Name="StartBtn"
                     Clicked="Handle_Clicked">
@@ -49,9 +52,9 @@
             </Button>
                         
                <Button Text="Bio"
+                       Grid.Row="1"
                     HorizontalOptions="StartAndExpand"
-                    HeightRequest="70"
-                    BackgroundColor="#2F6B81"
+                    BackgroundColor="#374c7b"
                     WidthRequest="125"
                     x:Name="BioBtn"
                     Clicked="Bio_Clicked">
@@ -59,16 +62,17 @@
             </Button>
                         
               <Button Text="Contact"
+                      Grid.Row="2"
                     HorizontalOptions="StartAndExpand"
-                    HeightRequest="70"
-                    BackgroundColor="#2F6B81"
+                    
+                    BackgroundColor="#374c7b"
                     WidthRequest="125"
                     x:Name="ContactBtn"
                     Clicked="Contact_Clicked">
               
             </Button>
                 
-             </StackLayout>   
+             
                 
                 
             </Grid>
@@ -79,23 +83,25 @@
                 <BoxView BackgroundColor="Black"
                          HorizontalOptions="FillAndExpand"
                          HeightRequest="2"
-                         Margin="50,120,50,0">
+                         Margin="50,10,50,0">
                 </BoxView>
 
                  </StackLayout>
                 
                 
                     
-                    <ScrollView>
+                    <ScrollView Margin="30,20,0,0">
                     <ListView x:Name="SkillsListView"
                               HasUnevenRows="true">
                         <ListView.ItemTemplate>
                             <DataTemplate>
                                 <ViewCell>
                                     
+                                    
+                                    
                                <Grid>
                                     <Grid.RowDefinitions>
-                                            <RowDefinition Height="50"/>
+                                            <RowDefinition Height="40"/>
                                              <RowDefinition Height="*"/>              
                                         </Grid.RowDefinitions>
                                         
@@ -106,12 +112,14 @@
                                         
                                         <Label Text="{Binding Name}"
                                                FontAttributes="Bold"
-                                               FontSize="30"
+                                               TextColor="Black"
+                                               FontSize="26"
                                                Grid.Row="0"
                                                Grid.Column="1"/>
                                         <Label Text="{Binding Description}"
                                                FontAttributes="None"
                                                FontSize="18"
+                                               TextColor="Black"
                                                Grid.Row="1"
                                                Grid.Column="1"/>
                                         <Image Source="{Binding Icon}"
